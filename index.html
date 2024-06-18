@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Buenos Aires</title>
+
+</head>
+<body>
+
+    <div class="vuelta-arriba">
+        <a class="back-to-top js-back-to-top" href="#" data-offset="100">
+            <svg class="cd-icon" viewBox="0 0 20 20">
+              <polyline points="2 13 10 5 18 13" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </svg>
+          </a>
+    </div>
+
+    <header>
+        <a href="index.html" class="logo">
+            <img src="img/logoba.png" alt="">
+        </a>
+        <nav>
+            <a href="#numero1" class="nav-link">Qué hacer</a>
+            <a href="#numero2" class="nav-link">Noticias</a>
+            <a href="#numero3" class="nav-link">Lugares</a>
+            <a href="#numero4" class="nav-link">Cultura</a>
+            <a href="#numero5" class="nav-link">Transporte</a>
+        </nav>
+    </header>
+
+    <div class="primer-slide">
+        <div class="slideshow js-slideshow " data-swipe="on">
+            <p class="sq7-sr-only">Slideshow Items</p>
+            
+            <ul class="slideshow__content">
+              
+              <li class="slideshow__item sq7-bg-light js-slideshow__item" style="background-image: url(img/IMG-20231206-WA0025.jpg);">
+                <div class='sq7-container sq7-max-width-sm'><div class='sq7-text-component'></div>
+              </li>
+              
+              <li class="slideshow__item sq7-bg-light js-slideshow__item" style="background-image: url(img/ccr.jpg);">
+                <div class='sq7-container sq7-max-width-sm'><div class='sq7-text-component'></div>
+              </li>
+              
+              <li class="slideshow__item sq7-bg-light js-slideshow__item" style="background-image: url(img/teatro_colon_panoramica_1200_1.jpg);">
+                <div class='sq7-container sq7-max-width-sm'><div class='sq7-text-component sq7-text-center'></div></div>
+              </li>
+              
+              <li class="slideshow__item sq7-bg-light js-slideshow__item" style="background-image: url(img/ingreso_reserva_ecologica_1200_0.jpg);">
+                <div class='sq7-container sq7-max-width-sm'><div class='sq7-text-component sq7-text-center'></div></div>
+              </li>
+              
+            </ul>
+          
+            <ul>
+              <li class="slideshow__control js-slideshow__control">
+                <button class="slideshow__btn js-tab-focus">
+                  <svg class="sq7-icon" viewBox="0 0 32 32"><title>Imagen Anterior</title><path d="M20.768,31.395L10.186,16.581c-0.248-0.348-0.248-0.814,0-1.162L20.768,0.605l1.627,1.162L12.229,16 l10.166,14.232L20.768,31.395z"></path></svg>
+                </button>
+              </li>
+          
+              <li class="slideshow__control js-slideshow__control">
+                <button class="slideshow__btn js-tab-focus">
+                  <svg class="sq7-icon" viewBox="0 0 32 32"><title>Proxima Imagen</title><path d="M11.232,31.395l-1.627-1.162L19.771,16L9.605,1.768l1.627-1.162l10.582,14.813 c0.248,0.348,0.248,0.814,0,1.162L11.232,31.395z"></path></svg>
+                </button>
+              </li>
+            </ul>
+          </div>
+
+    </div>
+
+    <div class="que-hacer-hoy">
+
+        <h1 class="titulo1" id="numero1">¿QUE <span class="fancy1">HACER</span> HOY?</h1>
+
+        <section class="team ty9-padding-y-xl">
+            <div class="ty9-container ty9-max-width-adaptive-lg">
+              <div class="ty9-margin-bottom-lg">
+                <h1 class="titulo1-1">Propuestas</h1>
+
+              </div>
+          
+              <div class="ty9-grid ty9-gap-sm">
+          
+                <div class="card-v2 ty9-radius-md ty9-col-3@md">
+                  <figure>
+                   <a href="conocer la ciudad.html"><img class="obelisco" src="img/obelisco.jfif" alt="Image description"></a>
+                    <figcaption class="card-v2__caption ty9-padding-x-sm ty9-padding-top-md ty9-padding-bottom-sm ty9-text-center">
+                      <div class="ty9-text-md ty9-text-base@md">Conocer la Ciudad</div>
+                      <div class="ty9-margin-top-3xs ty9-text-sm ty9-opacity-70%">Obelisco</div>
+                    </figcaption>
+                  </figure>
+                </div>
+          
+                <div class="card-v2 ty9-radius-md ty9-col-3@md">
+                  <figure>
+                    <a href="experiencias.html"><img class="cementerio" src="img/cementerio.jfif" alt="Image description"></a>
+                    <figcaption class="card-v2__caption ty9-padding-x-sm ty9-padding-top-md ty9-padding-bottom-sm ty9-text-center">
+                      <div class="ty9-text-md ty9-text-base@md">Experiencias</div>
+                      <div class="ty9-margin-top-3xs ty9-text-sm ty9-opacity-70%">Cementerio de la Recoleta</div>
+                    </figcaption>
+                  </figure>
+                </div>
+          
+                <div class="card-v2 ty9-radius-md ty9-col-3@md">
+                  <figure>
+                    <a href="imperdibles.html"><img class="caminito" src="img/caminito.jpg" alt="Image description"></a>
+                    <figcaption class="card-v2__caption ty9-padding-x-sm ty9-padding-top-md ty9-padding-bottom-sm ty9-text-center">
+                      <div class="ty9-text-md ty9-text-base@md">Imperdibles</div>
+                      <div class="ty9-margin-top-3xs ty9-text-sm ty9-opacity-70%">Caminito</div>
+                    </figcaption>
+                  </figure>
+                </div>
+          
+                <div class="card-v2 ty9-radius-md ty9-col-3@md">
+                  <figure>
+                    <a href="cultura.html"><img class="congreso" src="img/R.jfif" alt="Image description"></a>
+                    <figcaption class="card-v2__caption ty9-padding-x-sm ty9-padding-top-md ty9-padding-bottom-sm ty9-text-center">
+                      <div class="ty9-text-md ty9-text-base@md">Cultura</div>
+                      <div class="ty9-margin-top-3xs ty9-text-sm ty9-opacity-70%">Congreso</div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </section>
+
+        <div class="mapa">
+          <iframe class="mapa1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105073.1524105512!2d-58.51570669716552!3d-34.6158925482471!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3d05457fbb%3A0xe160f4fce7f7c017!2sCdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1714503720808!5m2!1ses-419!2sar" width="1275" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </div>
+
+    <div class="noticias">
+        <h1 class="noticias" id="numero2">NOTICIAS / <span class="fancy1"> NOTICIAS </span>/ NOTICIAS</h1>
+
+        <div class="card">
+            <img class="feria" src="img/interior-feria-del-libro-1500x610.jpg" alt="">
+            <div class="card__content">
+              <p class="card__title"><a href="https://turismo.buenosaires.gob.ar/es/article/feria-del-libro-2024">Feria del Libro</a></p>
+              <p class="card__description"><a href="https://turismo.buenosaires.gob.ar/es/article/feria-del-libro-2024">¡Preparate para disfrutar de la 48° edición del evento editorial y literario más importante de la Argentina y el más concurrido en el mundo de habla hispana! | Abr-25 may-13</a></p>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img class="comicon" src="img/comic-con-arg-1500x610_0.png" alt="">
+            <div class="card__content">
+              <p class="card__title"><a href="https://turismo.buenosaires.gob.ar/es/article/argentina-comic-con">Argentina Comic Con</a></p>
+              <p class="card__description"><a href="https://turismo.buenosaires.gob.ar/es/article/argentina-comic-con">Participá del mega evento de la cultura pop, con atracciones para toda la familia | Mayo 24-26</p>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img class="bafici" src="img/bafici2024-1500x610-0.jpg" alt="">
+            <div class="card__content">
+              <p class="card__title"><a href="https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana">BAFICI</a></p>
+              <p class="card__description"><a href="https://turismo.buenosaires.gob.ar/es/article/que-hacer-esta-semana">Llega el Festival Internacional de Cine Independiente. Disfrutá de una programación única, con lo mejor del séptimo arte | Abril 17-28</p>
+            </div>
+          </div>
+        
+          <div class="card">
+            <img class="tranvia" src="img/tranvia_caballito_1500x610.jpg" alt="">
+            <div class="card__content">
+              <p class="card__title"><a href="https://turismo.buenosaires.gob.ar/es/otros-establecimientos/tranvia-historico-de-caballito?QHS2024">Tranvía Histórico de Caballito</a></p>
+              <p class="card__description"><a href="https://turismo.buenosaires.gob.ar/es/otros-establecimientos/tranvia-historico-de-caballito?QHS2024">Recorré el tradicional barrio de Caballito a bordo de un verdadero tranvía.</p>
+            </div>
+          </div>
+
+         <br>
+         <br>
+         <button><a href="#">Ver más noticias</a></button>
+
+    </div>
+
+    <div class="lugaresmasvisitados">
+        <h1><span class="visitados" id="numero3">LUGARES MÁS VISITADOS</span></h1>
+      
+        <div class="cardvisitados">
+          <div class="remove-when-use">
+            <img class="cementeriovisita" src="img/cementerio.jfif" alt="">
+          </div>
+          <div class="details">
+            <label>Cementerio de la Recoleta</label>
+            <p>
+              El Cementerio de la Recoleta es un famoso cementerio ubicado en el barrio de Recoleta.
+              <br>
+              
+            </p>
+          </div>
+        </div>
+      
+        <div class="cardvisitados">
+          <div class="remove-when-use">
+            <img class="cementeriovisita" src="img/costanera.JPG" alt="">
+          </div>
+          <div class="details">
+            <label>Costanera</label>
+            <p>
+              La Costanera en Argentina es un lugar emblemático que se extiende a lo largo de la costa del Río de la Plata.
+              <br>
+              
+            </p>
+          </div>
+        </div>
+      
+        <div class="cardvisitados">
+          <div class="remove-when-use">
+            <img class="cementeriovisita" src="img/Caminito2.jpg" alt="">
+          </div>
+          <div class="details">
+            <label>Caminito</label>
+            <p>
+              El Caminito es un callejón, museo y pasaje de gran valor cultural y turístico ubicado en el barrio de La Boca
+              <br>
+              
+            </p>
+          </div>
+        </div>
+      
+        <div class="cardvisitados">
+          <div class="remove-when-use">
+            <img class="cementeriovisita" src="img/museo.jfif" alt="">
+          </div>
+          <div class="details">
+            <label>Museo Nacional de Bellas Artes</label>
+            <p>
+              Una de las instituciones públicas de arte más importantes de Argentina.
+              <br>
+             
+            </p>
+          </div>
+        </div>
+      
+        <div class="cardvisitados">
+          <div class="remove-when-use">
+            <img class="cementeriovisita" src="img/santelmo.jpg" alt="">
+          </div>
+          <div class="details">
+            <label>Feria de San Telmo</label>
+            <p>
+              Un evento emblemático que se lleva a cabo cada domingo en el barrio de San Telmo.
+              <br>
+              
+            </p>
+          </div>
+        </div>
+      
+        <div class="cardvisitados">
+          <div class="remove-when-use">
+            <img class="cementeriovisita" src="img/barolo.jpg" alt="">
+          </div>
+          <div class="details">
+            <label>Palacio Barolo</label>
+            <p>
+              Es un fascinante tesoro arquitectónico ubicado en Buenos Aires
+              <br>
+            
+            </p>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="cultura">
+      <div class="titulolindo" id="numero4">Cultura Cultura Cultura</div>
+
+      <section class="feature-v6 cd-padding-y-xl">
+        <div class="cd-container cd-max-width-adaptive-lg">
+          <div class="feature-v6__grid">
+            <div>
+              <img class="feature-v6__img" src="img/asado.jpg" alt="Image description">
+      
+              <h4 class="cd-margin-bottom-2xs">ASADO</h4>
+      
+              <p class="feature-v6__description cd-margin-bottom-xs">Reunirse con amigos y familiares para hacer un asado es una costumbre muy arraigada en Argentina. La carne asada es una parte esencial de la gastronomía local.</p>
+      
+              <p><a href="https://turismo.buenosaires.gob.ar/es/article/el-asado-un-ritual-que-nos-define" class="cd-link">Ver más</a></p>
+            </div>
+        
+            <div>
+              <img class="feature-v6__img" src="img/tango.jfif" alt="Image description">
+      
+              <h4 class="cd-margin-bottom-2xs">TANGO</h4>
+      
+              <p class="feature-v6__description cd-margin-bottom-xs">El tango es una de las tradiciones argentinas más reconocidas en todo el mundo. Este apasionado baile y su música tienen raíces profundas en la cultura argentina.</p>
+              
+              <p><a href="https://turismo.buenosaires.gob.ar/es/otros-establecimientos/c%C3%A1tulo-tango" class="cd-link">Ver más</a></p>
+            </div>
+        
+            <div>
+              <img class="feature-v6__img" src="img/mural.jpeg" alt="Image description">
+      
+              <h4 class="cd-margin-bottom-2xs">FUTBOL</h4>
+      
+              <p class="feature-v6__description cd-margin-bottom-xs">El fútbol es más que un deporte en Argentina; es una verdadera pasión. Los partidos de fútbol son eventos sociales importantes y los hinchas son apasionados y ruidosos.</p>
+      
+              <p><a href="https://turismo.buenosaires.gob.ar/es/agrupador-noticias/futbol-y-deportes" class="cd-link">Ver más</a></p>
+            </div>
+        
+            <div>
+              <img class="feature-v6__img" src="img/mate.jfif" alt="Image description">
+      
+              <h4 class="cd-margin-bottom-2xs">MATE</h4>
+      
+              <p class="feature-v6__description cd-margin-bottom-xs">Compartir el mate es un ritual sagrado en Argentina. Esta infusión de yerba mate se bebe en una calabaza con una bombilla y se pasa de mano en mano entre amigos y familiares.</p>
+      
+              <p><a href="https://turismo.buenosaires.gob.ar/es/article/las-claves-para-preparar-un-mate" class="cd-link">Ver más</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+    <div class="transportes">
+      <h1 class="transportestitulo" id="numero5">Transportes</h1>
+      <a href="https://buenosaires.gob.ar/subte/mapa-del-subte-y-combinaciones"><img class="imagenesmoverse1" src="img/Metro-Train-thumb.png" alt="Subterraneos"></a>
+      <a href="https://buenosaires.gob.ar/infraestructura/movilidad/metrobus/red-de-metrobus"><img class="imagenesmoverse1" src="img/bondi.jfif" alt=""></a>
+      <a href="https://turismo.buenosaires.gob.ar/es/article/%C2%BFc%C3%B3mo-llegar-buenos-aires"><img class="imagenesmoverse1" src="img/avion.png" alt=""></a>
+      <a href="https://turismo.buenosaires.gob.ar/es/agrupador-noticias/datos-%C3%BAtiles"><img class="imagenesmoverse1" src="img/datos_utiles.png" alt=""></a>
+
+      <h1 class="titulo-trans">Red de subterráneos</h1>
+      <p class="textotransito">Buenos Aires fue la primera ciudad del hemisferio sur en construir una red de subterráneos. Aquello empezó en 1913, con la línea A, que iba desde Plaza de Mayo hasta Plaza Miserere (Once),<br> 
+
+        Hoy, el tendido cuenta con 6 líneas y un premetro, y posee una extensión total de más de 64 km y 108 estaciones operativas. <br>
+        
+        Para viajar en subte, también necesitás la tarjeta SUBE, disponible en kioscos y estaciones. <br>
+        
+        <br><a class="conocer-mas" href="https://buenosaires.gob.ar/subte/mapa-del-subte-y-combinaciones">CONOCER MAS...</a></p>
+      <h1 class="titulo-trans">Red de Colectivos</h1>
+      <p class="textotransito">El colectivo es el medio de transporte más característico de Buenos Aires. Permite que llegues a cualquier punto de la Ciudad, Para utilizarlo es necesario adquirir una tarjeta SUBE y cargarle dinero.  <BR></BR><a href="https://buenosaires.gob.ar/infraestructura/movilidad/metrobus/red-de-metrobus">CONOCER MAS...</a></p>
+
+      <h1 class="titulo-trans">En avion</h1>
+      <p class="textotransito">Si volás a Buenos Aires, aterrizarás en los aeropuertos de Ezeiza o de Aeroparque, según de dónde vengas. <br> <br> <a href="https://turismo.buenosaires.gob.ar/es/article/%C2%BFc%C3%B3mo-llegar-buenos-aires">CONOCER MAS...</a></p>
+      <br>
+      <br>
+      <br>
+    </div>
+
+    <div class="final">
+      <section>
+        <div class="ae2-container ae2-max-width-adaptive-sm">
+          <div class="author author--featured">
+            <a href="#0" class="author__img-wrapper">
+              <img src="img/campo.jfif" alt="Author picture">
+            </a>
+          
+            <div class="author__content ae2-text-component">
+              <h2>By: Pablo Moreno</h2>
+              <p>Gracias por ver</p>
+            </div>
+      
+          </div>
+        </div>
+      </section>
+
+    </div>
+
+
+<script src="java.js"></script>   
+</body>
+</html>
